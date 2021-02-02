@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Float & Align</title>
+  <style>
+    *{
+      box-sizing:border-box;
+
+    }
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+    }
+    .container {
+      max-width: 560px;
+      margin: 30px auto;
+      
+    }
+    
+    .clr {
+      clear:both;
+    }
+
+    .box {
+      background: teal;
+      padding: 20px;
+      margin-bottom: 15px;
+      border:  black solid;
+    }
+
+    .box p {
+      /* Text Align */
+      text-align: left;
+      text-align: right;
+      text-align: center;
+      text-align: justify;
+
+    }
+
+    #box2 {
+      float: left;
+      width: 68%;
+
+    }
+
+    #box3 {
+      float:right;
+      width: 30%;
+
+     }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+
+  
+  <div id="box1" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque, veritatis assumenda quia consectetur consequuntur architecto natus eum dicta repellat!
+    </p>
+  </div>
+  <div id="box2" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque, veritatis assumenda quia consectetur consequuntur architecto natus eum dicta repellat!
+    </p>
+  </div>
+  <div id="box3" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque, veritatis assumenda quia consectetur consequuntur architecto natus eum dicta repellat!
+    </p>
+  </body>
+</div>
+
+<div class="clr"></div>
+<div id="box4" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem doloremque, veritatis assumenda quia consectetur consequuntur architecto natus eum dicta repellat!
+    </p>
+  </body>
+</div>
+</html>
